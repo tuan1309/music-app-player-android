@@ -1,0 +1,15 @@
+<resources>
+    <!-- Màu nền -->
+    <color name="colorBackground">#FFFFFF</color> <!-- Màu nền sáng, ví dụ màu trắng -->
+
+    <!-- Màu chính của ứng dụng -->
+    <color name="colorPrimary">#6200EE</color>
+
+    <!-- Màu tối cho thanh trạng thái -->
+    <color name="colorPrimaryDark">#3700B3</color>
+
+    <!-- Màu cho văn bản hoặc biểu tượng trên nền chính -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Màu trắng cho văn bản trên nền chính -->
+
+    <color name="colorText">#000</color> <!-- Màu nền sáng, ví dụ màu trắng -->
+</resources>

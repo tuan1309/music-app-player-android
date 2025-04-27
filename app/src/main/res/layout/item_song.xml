@@ -1,0 +1,66 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:radius="16dp"
+    android:id="@+id/song_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        >
+
+        <ImageView
+            android:id="@+id/song_art"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_song"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/song_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Song Title"
+                android:textColor="@color/colorText"
+                android:textSize="12sp"
+                android:gravity="center_horizontal"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/song_artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Artist"
+                android:textColor="@color/colorText"
+                android:textSize="10sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="2dp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/more_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_more"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
